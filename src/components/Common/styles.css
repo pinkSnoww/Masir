@@ -1,0 +1,55 @@
+.line {
+    width: 70%;
+    margin: 0 auto;
+    background-color: blue;
+  }
+  #svg path.path {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 4000;
+    stroke-width: 2;
+    -webkit-animation: lines 5s linear forwards;
+    -moz-animation: lines 5s linear forwards;
+    -ms-animation: lines 5s linear forwards;
+    -o-animation: lines 5s linear forwards;
+    animation: lines 5s linear forwards;
+  }
+  @keyframes lines {
+    from {
+      stroke-dashoffset: 4000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @-webkit-keyframes lines {
+    form {
+      stroke-dashoffset: 4000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @-moz-keyframes lines {
+    form {
+      stroke-dashoffset: 4000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @-ms-keyframes lines {
+    form {
+      stroke-dashoffset: 4000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @-o-keyframes lines {
+    form {
+      stroke-dashoffset: 4000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }

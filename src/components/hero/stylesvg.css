@@ -1,0 +1,7 @@
+.hover-circle {
+  transition: fill 0.3s ease; /* Smooth transition for the fill color */
+}
+
+.hover-circle:hover {
+  fill: #ff0000; /* Change to a lighter color on hover */
+}
