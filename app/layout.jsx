@@ -12,8 +12,8 @@ export default function RootLayout({ children }) {
   return (
     <>
     <Script
-                src="bundle.js" // Replace with your script URL
-                strategy="lazyOnload" // Load the script after the page has loaded
+                src="bundle.js"
+                strategy="lazyOnload"
             />
        <html className='font-custom' dir='rtl'>
        <body >

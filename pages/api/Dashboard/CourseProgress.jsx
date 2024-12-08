@@ -57,7 +57,9 @@ const CourseProgress = () => {
         <div className="flex gap-2 justify-center items-center self-stretch px-3 my-auto w-12 h-12 bg-neutral-100 rounded-[32px]">
           <Image
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff165252fa6249989c95fc385d94cc6d376d4bd53e9a4298410edd5eb8813d9a?placeholderIfAbsent=true&apiKey=ec8b5be8d0bc439e8d0de4f10baa31dc"
+            width={24}
+            height={24}
+            src=""
             alt=""
             className="object-contain self-stretch my-auto w-6 aspect-square"
           />
@@ -76,7 +78,7 @@ const CourseProgress = () => {
               <div className="flex gap-2 justify-center items-center self-stretch px-1.5 my-auto w-8 h-8 bg-lime-400 rounded-[40px]">
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b7d2954f79b9c2519416f1892ce0be456fceac2d9198d2947de87448a6b3f1ad?placeholderIfAbsent=true&apiKey=ec8b5be8d0bc439e8d0de4f10baa31dc"
+                  src=""
                   alt=""
                   className="object-contain self-stretch my-auto w-5 rounded-3xl aspect-square"
                 />
@@ -172,7 +174,9 @@ const CourseProgress = () => {
               <div className="flex overflow-hidden flex-col my-auto rounded-lg min-h-[68px] w-[68px]">
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d523ba1be7edadfac92a14779cfd527b6b4490914c977f830e2babf26c9effb?placeholderIfAbsent=true&apiKey=ec8b5be8d0bc439e8d0de4f10baa31dc"
+                  width={24}
+                  height={24}
+                  src=""
                   alt=""
                   className="object-contain flex-1 aspect-square w-[68px]"
                 />

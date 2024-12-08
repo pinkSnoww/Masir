@@ -20,7 +20,7 @@ export function IconContainer() {
         </Button>
       </div>
       <div className="flex gap-2 justify-center items-center self-stretch my-auto w-10 rounded-3xl">
-        <Link href="/Dashboard">
+        <Link href="/Login">
           <Button isIconOnly rounded="full" aria-label="User profile icon">
             <Image 
               loading="lazy" 
