@@ -9,7 +9,7 @@ function ActiveDiscounts() {
           تخفیف‌های فعال
         </h2>
         <div className="flex gap-2 justify-center items-center self-stretch px-3 my-auto w-12 h-12 bg-neutral-100 rounded-[32px]">
-          <Image loading="lazy" width={24} height={24} src="" alt="" className="object-contain self-stretch my-auto w-6 aspect-square" />
+          <Image loading="lazy" width={24} height={24} src="/Images/DashiconDashboard.png" alt="DashIcon" className="object-contain self-stretch my-auto w-6 aspect-square" />
         </div>
       </div>
       <div className="flex overflow-hidden flex-col justify-center p-4 mt-8 w-full bg-lime-400 rounded-2xl max-md:max-w-full">
@@ -28,7 +28,7 @@ function ActiveDiscounts() {
               Course30
             </div>
             <div className="flex gap-2 justify-center items-center self-stretch p-1 my-auto w-8 rounded-lg">
-              <Image loading="lazy" width={24} height={24} src="" alt="" className="object-contain self-stretch my-auto w-6 aspect-square" />
+              <Image loading="lazy" width={24} height={24} src="/Images/DiscountCodeIcon.png" alt="" className="object-contain self-stretch my-auto w-6 aspect-square" />
             </div>
           
           </div>

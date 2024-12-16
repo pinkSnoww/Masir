@@ -1,7 +1,6 @@
 "use client"
 import React, { createContext, useContext } from 'react';
-import '../styles/globals.css';
-import '../styles/fonts.css';
+import '../public/styles/globals.css';
 import Head from 'next/head';
 import Script from 'next/script';
 
@@ -11,10 +10,10 @@ export const MyContext = createContext();
 export default function RootLayout({ children }) {
   return (
     <>
-    <Script
+    {/* <Script
                 src="bundle.js"
                 strategy="lazyOnload"
-            />
+            /> */}
        <html className='font-custom' dir='rtl'>
        <body >
     {children}

@@ -3,7 +3,7 @@
 @tailwind utilities; 
 @font-face {
    font-family: 'ModamVF';
-    src: url('/fonts/ModamVF.woff') format('woff');
+    src: url('../fonts/ModamVF.woff') format('woff');
      font-weight: normal;
       font-style: normal;
 }
@@ -13,7 +13,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 .some-class {
-  background-image: url('/Images/line.png');
+  background-image: url('../images/line.png');
 }
 html {
   /* -webkit-text-size-adjust: 100%; */

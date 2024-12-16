@@ -59,8 +59,8 @@ const CourseProgress = () => {
             loading="lazy"
             width={24}
             height={24}
-            src=""
-            alt=""
+            src="/Images/DashiconDashboard.png"
+            alt="DashIcon"
             className="object-contain self-stretch my-auto w-6 aspect-square"
           />
         </div>
@@ -78,8 +78,10 @@ const CourseProgress = () => {
               <div className="flex gap-2 justify-center items-center self-stretch px-1.5 my-auto w-8 h-8 bg-lime-400 rounded-[40px]">
                 <Image
                   loading="lazy"
-                  src=""
-                  alt=""
+                  width={20}
+                  height={20}
+                  src="/Images/ProgressIconDashboard.png"
+                  alt="Progress Icon"
                   className="object-contain self-stretch my-auto w-5 rounded-3xl aspect-square"
                 />
               </div>

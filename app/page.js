@@ -12,9 +12,10 @@ import Footer from '../src/components/Footer/Footer';
 import {NextUIProvider} from "@nextui-org/react";
 import CourseSections from '../src/components/CourseCard/CourseSections';
 import BlogSection from '../src/components/blog/BlogSection';
-
+import RootLayout from './layout';
 export default function Home() {
   return (
+    <RootLayout>
     <NextUIProvider>
     <main className="flex flex-col items-center ">
  
@@ -32,5 +33,6 @@ export default function Home() {
          <Footer/>
         </main>
         </NextUIProvider>
+        </RootLayout>
   )
 }
